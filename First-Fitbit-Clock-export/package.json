@@ -1,0 +1,24 @@
+{
+  "fitbit": {
+    "appUUID": "0a8e5d94-9eca-4d82-bf9e-5fb9d5ff241a",
+    "appType": "clockface",
+    "appDisplayName": "First-Fitbit-Clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#8bc34a",
+    "requestedPermissions": [
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "First-Fitbit-Clock"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0"
+  }
+}

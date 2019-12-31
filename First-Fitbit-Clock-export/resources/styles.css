@@ -1,0 +1,17 @@
+.background {
+  viewport-fill: black;
+}
+
+.digitalTime {
+  fill: lime;
+  font-size: 90;
+  font-family: Fabrikat-Black;
+  font-weight: bold;
+  text-anchor: middle;
+  text-length: 80;
+}
+
+.number {
+  font-size: 18;
+  font-weight: bold;
+}
